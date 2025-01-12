@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="mail">
+             <img src="nav_ContactUs.png">
+            <a href="#">raktakhojinfo@gmail.com</a>
+            </div>
+            <ul> 
+            <button><a href="login.html">Login</a></button>
+            <button><a href="register.html">Register</a></button>
+            </ul>
+        </div>
+    </div>
+    <div class="nav">
+        <div class="logo">
+             <img src="logo1-removebg-preview.png" height="100px" width="120px"> RAKTA KHOJ 
+        </div>
+        <ul> 
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Donor List</a></li>
+            <li><a href="#">Campaign</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Admin</a></li>
+        </ul>
+ </div>
+    <form id="DonorRegistration" method="post" action="https://nepalblood.com/become-donor/addDonors" novalidate="novalidate">
+        <input type="hidden" name="_token" value="408ZvDIyNsX3Qq63MXRca4BkEHSbLUFIEyrGl6oQ">
+        <fieldset>
+            <div class="col-md-12">
+                <legend>Personal Information</legend>
+            </div>
+            <div class="col-md-4 col-sm-4 input-details">
+                <p>First Name<span class="text-danger">*</span></p>
+                <input type="text" name="fname" class="form-control border-input">
+            </div>
+            <div class="col-md-4 col-sm-4 input-details">
+                <p>Middle Name<span class="text-danger"></span></p>
+                <input type="text" name="mname" class="form-control border-input">
+            </div>
+            <div class="col-md-4 col-sm-4 input-details">
+                <p>Last Name<span class="text-danger">*</span></p>
+                <input type="text" name="lname" class="form-control border-input">
+            </div>
+
+            <div class="col-md-6 col-sm-6 input-details">
+                <p>Gender<span class="text-danger">*</span></p>
+                <select class="form-control border-input" name="gender">
+                    <option selected="" disabled="" value="">Select Gender</option>
+                    <option value="M">Male</option>
+                    <option value="F">Female</option>
+                </select>
+            </div>
+            <div class="col-md-6 col-sm-6 input-details">
+                <p>Contact<span class="text-danger">*</span></p>
+                <input type="text" name="contact" id="txtMobile" class="form-control border-input numericOnly" minlength="7" maxlength="10" pattern=".{7,}" title="7 characters minimum">
+            </div>
+            <div class="col-md-6 col-sm-6 input-details">
+                <p>Date of Birth<span class="text-danger">*</span></p>
+                <input type="text" id="datepicker" name="dob" class="form-control border-input  hasDatepicker" placeholder="yyyy-mm-dd">
+            </div>
+
+            <div class="col-md-6 col-sm-6 input-details">
+                <p>Blood Group<span class="text-danger">*</span></p>
+                <select class="form-control border-input" name="blood">
+                    <option selected="" disabled="" value="">Blood Group</option>
+                    <option value="A+">A+</option>
+                    <option value="A-">A-</option>
+                    <option value="B+">B+</option>
+                    <option value="B-">B-</option>
+                    <option value="AB+">AB+</option>
+                    <option value="AB-">AB-</option>
+                    <option value="O+">O+</option>
+                    <option value="O-">O-</option>
+                </select>
+            </div>
+        </fieldset>
+
+        <fieldset style="margin-top: 30px">
+            <div class="col-md-12">
+                <legend>Current Location</legend>
+            </div>
+            <div class="col-md-6 col-sm-6 input-details">
+                <p>District<span class="text-danger">*</span></p>
+                <select class="form-control border-input" id="idDist" name="district">
+                    <option value="">Choose District</option>
+                                                            <option value="69">Achham</option>
+                                                            <option value="50">Arghakhanchi</option>
+                                                            <option value="45">Baglung</option>
+                                                            <option value="75">Baitadi</option>
+                                                            <option value="68">Bajhang</option>
+                                                            <option value="67">Bajura</option>
+                                                            <option value="57">Banke</option>
+                                                            <option value="33">Bara</option>
+                                                            <option value="58">Bardiya</option>
+                                                            <option value="27">Bhaktapur</option>
+                                                            <option value="9">Bhojpur</option>
+                                                            <option value="35">Chitwan</option>
+                                                            <option value="73">Dadeldhura</option>
+                                                            <option value="59">Dailekh</option>
+                                                            <option value="56">Dang</option>
+                                                            <option value="74">Darchula</option>
+                                                            <option value="30">Dhading</option>
+                                                            <option value="7">Dhankuta</option>
+                                                            <option value="17">Dhanusa</option>
+                                                            <option value="21">Dolakha</option>
+                                                            <option value="64">Dolpa</option>
+                                                            <option value="70">Doti</option>
+                                                            <option value="36">Gorakha</option>
+                                                            <option value="46">Gulmi</option>
+                                                            <option value="62">Humla</option>
+                                                            <option value="3">Ilam</option>
+                                                            <option value="61">Jajarkot</option>
+                                                            <option value="4">Jhapa</option>
+                                                            <option value="63">Jumla</option>
+                                                            <option value="71">Kailali</option>
+                                                            <option value="66">Kalikot</option>
+                                                            <option value="72">Kanchanpur</option>
+                                                            <option value="51">Kapilvastu</option>
+                                                            <option value="40">Kaski</option>
+                                                            <option value="26">Kathmandu</option>
+                                                            <option value="24">Kavrepalanchowk</option>
+                                                            <option value="12">Khotang</option>
+                                                            <option value="25">Lalitpur</option>
+                                                            <option value="37">Lamjung</option>
+                                                            <option value="18">Mahottari</option>
+                                                            <option value="31">Makawanpur</option>
+                                                            <option value="41">Manang</option>
+                                                            <option value="5">Morang</option>
+                                                            <option value="65">Mugu</option>
+                                                            <option value="42">Mustang</option>
+                                                            <option value="44">Myagdi</option>
+                                                            <option value="48">Nawalparasi</option>
+                                                            <option value="28">Nuwakot</option>
+                                                            <option value="11">Okhaldhunga</option>
+                                                            <option value="47">Palpa</option>
+                                                            <option value="2">Panchthar</option>
+                                                            <option value="43">Parbat</option>
+                                                            <option value="34">Parsa</option>
+                                                            <option value="52">Pyuthan</option>
+                                                            <option value="22">Ramechhap</option>
+                                                            <option value="29">Rasuwa</option>
+                                                            <option value="32">Rautahat</option>
+                                                            <option value="53">Rolpa</option>
+                                                            <option value="54">Rukum</option>
+                                                            <option value="49">Rupandehi</option>
+                                                            <option value="55">Salyan</option>
+                                                            <option value="8">Sankhuwasubha</option>
+                                                            <option value="15">Saptari</option>
+                                                            <option value="19">Sarlahi</option>
+                                                            <option value="20">Sindhuli</option>
+                                                            <option value="23">Sindhupalchowk</option>
+                                                            <option value="16">Sirha</option>
+                                                            <option value="13">Solukhumbu</option>
+                                                            <option value="6">Sunsari</option>
+                                                            <option value="60">Surkhet</option>
+                                                            <option value="39">Syangja</option>
+                                                            <option value="38">Tanahun</option>
+                                                            <option value="1">Taplejung</option>
+                                                            <option value="10">Terhathum</option>
+                                                            <option value="14">Udaypur</option>
+                                                    </select>
+            </div>
+            <div class="col-md-6 col-sm-6 input-details">
+                <p>VDC/Municipality<span class="text-danger">*</span></p>
+                <select name="vdc" id="idVdc" class="form-control border-input">
+                    <option selected="" disabled="" value="">Select VDC/Municipality</option>
+                </select>
+            </div>
+            <div class="col-md-6 col-sm-6 input-details">
+                <p>Location<span class="text-danger">*</span></p>
+                <input type="text" id="idLocation" name="location" class="form-control ui-autocomplete-input" autocomplete="off">
+            </div>
+
+            <div class="col-md-6 col-sm-6 input-details">
+                <p>Ward No.<span class="text-danger">*</span></p>
+                <select class="form-control border-input" name="ward">
+                    <option value="" selected="" disabled="">Ward No.</option>
+                                                        <option>1</option>
+                                                        <option>2</option>
+                                                        <option>3</option>
+                                                        <option>4</option>
+                                                        <option>5</option>
+                                                        <option>6</option>
+                                                        <option>7</option>
+                                                        <option>8</option>
+                                                        <option>9</option>
+                                                        <option>10</option>
+                                                        <option>11</option>
+                                                        <option>12</option>
+                                                        <option>13</option>
+                                                        <option>14</option>
+                                                        <option>15</option>
+                                                        <option>16</option>
+                                                        <option>17</option>
+                                                        <option>18</option>
+                                                        <option>19</option>
+                                                        <option>20</option>
+                                                        <option>21</option>
+                                                        <option>22</option>
+                                                        <option>23</option>
+                                                        <option>24</option>
+                                                        <option>25</option>
+                                                        <option>26</option>
+                                                        <option>27</option>
+                                                        <option>28</option>
+                                                        <option>29</option>
+                                                        <option>30</option>
+                                                        <option>31</option>
+                                                        <option>32</option>
+                                                        <option>33</option>
+                                                        <option>34</option>
+                                                        <option>35</option>
+                                                    </select>
+            </div>
+        </fieldset>
+
+
+        <div class="col-md-12">
+            <div class="input-details">
+                <input type="submit" id="btnRegister" name="btnRegister" class="btn btn-danger button-submit border-input" value="Submit">
+            </div>
+        </div>
+</body>
+</html>
