@@ -138,6 +138,7 @@ button a{
   align-items: center;
   justify-content: space-between;
   text-align: center;
+ 
     
 }
 .input-details .text-danger{
@@ -151,13 +152,14 @@ button a{
     width: 110px;
   height: 40px;
   font-size: 20px;
-  padding: 0 25px;
+  padding: 0 5dpx;
   margin-bottom: 15px;
   border-radius: 10px;
   border: none;
   box-shadow: 1px 1px 10px 1px;
   outline: none;
   transition: .3s;
+  text-transform: uppercase;
 }
 .input-details2{
     padding-left: 20px;
@@ -170,6 +172,7 @@ justify-content: space-between;
 .input-details2 .form-control{
     width: 700px;
   height: 40px;
+  padding: 0 5px;
   font-size: 20px;
   margin-bottom: 15px;
   border-radius: 10px;
@@ -177,6 +180,7 @@ justify-content: space-between;
   box-shadow: 1px 1px 10px 1px;
   outline: none;
   transition: .3s;
+  text-transform: uppercase;
 }
  
  
@@ -207,3 +211,102 @@ justify-content: space-between;
     background: #490303;
     transform: scale(1.01,1);
    }
+   footer{
+	position: absolute;
+    margin-bottom: 10px;
+    margin-top: 200px;
+    
+}
+.footer-distributed{
+    background:  rgb(129, 16, 16);
+	box-sizing: border-box;
+    border-radius: 10px;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 10px 50px;
+	margin-top: 10px;
+    height: 170px;
+}
+ 
+.footer-distributed .footer-left{
+	display: inline-block;
+	vertical-align: top;
+}
+ 
+.footer-distributed .footer-left{
+	width: 40%;
+}
+ 
+.footer-distributed .footer-left h3{
+	color:  #ffffff;
+	font-size: 30px;
+	margin-top: 10px;
+}
+.footer-distributed .footer-left a{
+    color: #ffffff;
+    font-size: 20px;
+}
+.footer-distributed .footer-left p{
+    color: #ffffff;
+    font-size: 20px;
+}
+.document{
+    width: 70%;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+     justify-content: space-between;
+    padding-bottom: 10px;
+     
+     
+}
+.document p{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    padding-left: 20px;
+    
+}
+.document span{
+    color:rgb(165, 6, 6) ;
+
+    
+}
+#drop-area{
+    width:200px;
+    height: 200px;
+    background-color: #e57272;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#img-view{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    border-radius: 10px;
+    border: 2px dashed black;
+    background: #c03d3d;
+    background-position:center ;
+    background-size: cover ;
+    
+
+}
+#img-view img{
+    width: 100px;
+    margin-top: 25px;
+}
+#img-view p{
+    color: #fff;
+}
+#img-view span{
+    display: block;
+    font-size: 12px;
+    color: #fff;
+}
+
+ 

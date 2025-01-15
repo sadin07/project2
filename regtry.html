@@ -22,7 +22,7 @@
     </div>
         <div class="nav">
             <div class="logo">
-                 <img src="logo1-removebg-preview.png" height="100px" width="120px"> RAKTA KHOJ 
+                 <img src="./img//logo1-removebg-preview.png" height="100px" width="120px"> RAKTA KHOJ 
             </div>
             <ul> 
               <li><a href="main.html">Home</a></li>
@@ -95,7 +95,20 @@
                             </div>
                         </fieldset>
                         <br>
-                        <fieldset style="margin-top: 30px">
+                        <div class="document">
+                            <p>Blood Test Report <span class="text-danger">*</span></p>
+                            <label for="input-file" id="drop-area">
+                                <input type="file" accept="image/*" id="input-file" hidden required>
+                                <div id="img-view">
+                                    <img src="./img//IMG_9517.PNG">
+                                    <p>Click here to upload image</p>
+                                    <span>Please upload your blood test document</span>
+                                </div>
+                            </label>
+                        </div>
+                        <script src="upload.js"></script>
+
+                        <fieldset style="margin-top: 20px">
                             <div class="location">
                                 <legend>Current Location</legend>
                             </div>
@@ -235,27 +248,37 @@
                                                                         <option>35</option>
                                                                     </select>
                             </div>
-                        </fieldset>
-                    </form>
-                </div>
+                         
                         <br>
                         
                         <div class="input-submit">
                                 <button class="submit-btn" id="submit"></button>
                                 <label for="submit">Submit</label>
                         </div>
-                    
+                    </fieldset>
+                </form>
+            </div>
                      
 
                     
-                </div>
-            </div>
-            
-            </div>
-        </div>
-    </div>
-     
-</div>
+         </div>
+
+<div class="footer">
+ 
+    <footer class="footer-distributed">
+    
+       <div class="footer-left">
+   
+           <h3>RAKTAK KHOJ</h3>
+           <br>
+            <p><a href="mailto:raktakhojinfo@gmail.com">raktakhojinfo@gmail.com</a></p>
+               <p>+977 9876543210</p>
+               <br>
+           <p>&copy; 2025. All rights reserved.</p>
+
+       </div>
+    </footer>
+ </div>
  
 </body>
 </html>
