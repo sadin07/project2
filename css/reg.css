@@ -105,13 +105,21 @@ button a{
     border-radius: 6px;
 } 
 .registration-form{
+     
     position: relative;
     margin-top: 300px;
     width: 900px;
     padding-left: 100px;
     font-size: 20px;
+     
+    
+    
 }
- .row .h2{
+.row{
+    background-color: rgba(81, 6, 6, 0.306);
+     
+}
+.h2{
     padding-left: 100px;
  }
 
