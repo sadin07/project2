@@ -53,13 +53,13 @@ button{
     border-radius: 8px;
     padding: 7px;
     text-align: center;
-    
-}
-button a{
     color: white;
     font-weight: bold;
     font-size: 20px;
 }
+    
+
+ 
 
 .nav{
     position:absolute;
