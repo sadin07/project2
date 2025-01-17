@@ -4,6 +4,12 @@
     text-decoration: none;
     font-family: 'Poppins', 'sans-serif';
   }
+  html{
+    background-color: #e5e5f7;
+opacity: 1;
+background-image: radial-gradient(#d91414 0.9px, #e5e5f7 0.9px);
+background-size: 18px 18px;
+ }
    .header {
     position: relative;
     background-color: rgb(71, 4, 4);
@@ -132,6 +138,7 @@
     font-weight:bold;
     
   }
+ 
   
   .input-box .input-field {
     width: 100%;
@@ -202,8 +209,9 @@
   .input-submit {
     position: relative;
   }
-  
-  .submit-btn {
+  .input-submit .submit-btn{
+    font-size: 25px;
+    color: #ffffff;
     width: 100%;
     height: 60px;
     background: #772c2c;
@@ -211,6 +219,9 @@
     border-radius: 30px;
     cursor: pointer;
     transition: .3s;
+  }
+  .submit-btn {
+   
   }
   
   .input-submit label {
@@ -224,11 +235,7 @@
     transform: translate(-50%, -50%);
     cursor: pointer;
   }
-  
-  .submit-btn:hover {
-    background: #000;
-    transform: scale(1.05, 1);
-  }
+ 
   
   .register-link {
     text-align: center;

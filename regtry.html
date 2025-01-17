@@ -29,7 +29,7 @@
              <li><a href="#">Donor List</a></li>
              <li><a href="#">Campaign</a></li>
              <li><a href="#">About Us</a></li>
-           
+             <li><a href="admin.html">Admin</a></li>
             </ul>
      </div>
 
@@ -74,6 +74,12 @@
                             </div>
                             <br>
                             <div class="input-details2">
+                                <p>Email<span class="text-danger">*</span></p>
+                                <input type="text" id="mail" name="email" class="form-control"
+                                       placeholder=" abcd@gmail.com" required>
+                            </div>           
+                             <br>
+                            <div class="input-details2">
                                 <p>Date of Birth<span class="text-danger">*</span></p>
                                 <input type="text" id="datepicker" name="dob" class="form-control"
                                        placeholder=" yyyy-mm-dd" required>
@@ -107,7 +113,21 @@
                             </label>
                         </div>
                         <script src="upload.js"></script>
-
+                        <br>
+                        <div class="input-details2">
+                            <p>Any disease<span class="text-danger">*</span></p>
+                            <input type="text" name="disease" class="form-control" required>
+                        </div>
+                        <br>
+                        <div class="input-details2">
+                            <p>Bleeding Disorder<span class="text-danger">*</span></p>
+                            <select class="form-control" name="Bleeding disorder" required>
+                                <option selected disabled value="">Bleeding Disorder</option>
+                                <option value="No">No</option>
+                                <option value="Yes">Yes</option>
+                            </select>
+                        </div>
+                        <br>
                         <fieldset style="margin-top: 20px">
                             <div class="location">
                                 <legend>Current Location</legend>
@@ -195,11 +215,7 @@
                                                                     </select>
                             </div>
                             <br>
-                            <div class="input-details2">
-                                <p>VDC/Municipality<span class="text-danger">*</span></p>
-                                <input type="text" name="idVdc" class="form-control" required>
-                            </div>
-                            <br>
+                            
                             <div class="input-details2">
                                 <p>Location<span class="text-danger">*</span></p>
                                 <input type="text" id="idLocation" name="location" class="form-control"/>
